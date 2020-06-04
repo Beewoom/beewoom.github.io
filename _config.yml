@@ -4,7 +4,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-paginate-v2
+  - jekyll-paginate
 feed:
   path: atom.xml
 
@@ -35,11 +35,8 @@ highlightjs_theme: "monokai-sublime"
 
 # Pagination Settings
 # https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
-pagination:
-  enabled: true
-  per_page: 5
-  permalink: "/page/:num/"
-  sort_reverse: true
+paginate: 5
+paginate_path: /page:num/
 
 
 # Disqus comments
@@ -50,12 +47,12 @@ disqus:
 # ga_tracking_id: "UA-XXXX-1"
 
 # Category descriptions (for archive pages)
-descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
-
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
+# descriptions:
+#   - cat: jekyll
+#     desc: "Posts describing Jekyll setup techniques."
+# 
+#   - cat: dummy
+#     desc: "Just some placeholder posts, lorem ipsum and the rest."
 
 # Social icons and sharing options
 #
