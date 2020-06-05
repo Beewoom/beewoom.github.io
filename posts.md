@@ -1,12 +1,13 @@
 ---
 layout: page
-title: "Posts"
+title: "Study Posts"
 permalink: /posts/
 main_nav: true
 ---
 
 {% for category in site.categories %}
   {% capture cat %}{{ category | first }}{% endcapture %}
+  {% unless cat contains 'project' %}
   <h2 id="{{cat}}">{{ cat | capitalize }}</h2>
   {% for desc in site.descriptions %}
     {% if desc.cat == cat %}
@@ -24,5 +25,6 @@ main_nav: true
   {% endfor %}
   </ul>
   {% if forloop.last == false %}<hr>{% endif %}
+  {% endunless %}
 {% endfor %}
 <br>
