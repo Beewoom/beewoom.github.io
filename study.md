@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Study Posts"
-permalink: /posts/
+permalink: /study/
 main_nav: true
 ---
 
