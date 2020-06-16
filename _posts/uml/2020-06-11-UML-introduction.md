@@ -3,6 +3,7 @@ layout: post
 title:  "UML 개요"
 author: 유정민
 categories: UML
+excerpt: "UML이란 무엇일까?, 왜 쓰는 걸까? 어떻게 쓰는 걸까?"
 ---
 > "UML은 실전에서는 이것만 쓴다." (저자: 로버트 C. 마틴)을 참조한 내용입니다.
 
